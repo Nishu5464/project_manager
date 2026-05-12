@@ -1,4 +1,8 @@
-# Project Task Manager API
+ # Project Task Manager API
+
+Live API: https://web-production-eabbe.up.railway.app/api/v1/
+GitHub Repo: https://github.com/Nishu5464/project_manager
+
 
 Django REST Framework backend with JWT auth, role-based access control, and PostgreSQL.
 
@@ -65,7 +69,7 @@ API base URL: `http://localhost:8000/api/v1/`
    ```
    SECRET_KEY=<generate: python -c "import secrets; print(secrets.token_hex(32))">
    DEBUG=False
-   ALLOWED_HOSTS=your-app.up.railway.app
+   ALLOWED_HOSTS=web-production-eabbe.up.railway.app
    CORS_ALLOWED_ORIGINS=https://your-frontend.up.railway.app
    ```
 5. Railway runs `railway.toml` start command automatically:
